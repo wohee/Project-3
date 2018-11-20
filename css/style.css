@@ -145,6 +145,10 @@ body{
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: left;
 }
+#map{
+  height: 100px;
+  width: 100px;
+}
 .r_idx{
   background-color: Linen;
   width: 50%;
