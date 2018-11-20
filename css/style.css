@@ -146,8 +146,8 @@ body{
   text-align: left;
 }
 #map{
-  height: 50%;
-  width: 30%;
+  height: 500px;
+  position: relative;
 }
 .r_idx{
   background-color: Linen;
