@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body{
+  background-color: PeachPuff;
+  line-height: 1;
+  letter-spacing: 0.07em
+}
+.title{
+  padding-top: 10%;
+  text-align: center;
+  font-size: 800%;
+  font-family: 'Luckiest Guy', cursive;
+}
+.nav{
+  background-color: Coral;
+  height:50px;
+  position: fixed;
+  top: 0; 
+  width:100%;
+}
+.nav li{
+  display: inline-block;
+}
+.nav ul{
+  margin: 0px;
+  text-align: center;
+}
+.nav a{
+  font-family: 'Bangers', cursive;
+  display: block;  
+  color: black;
+  text-align: center; 
+  padding: 10px 20px;
+  font-size: 180%;
+  text-decoration: none;
+}
+.subtitle{
+  font-family: 'Boogaloo', cursive;
+  font-size: 350%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.idx1 h3{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 250%;
+  text-align: center;
+}
+.idx1{
+  text-align: center;
+  height: 50%;
+  width: 99.2%;
+  border: 5px solid Lavender;
+  margin: auto;
+  padding-bottom: 70px;
+  padding-top: 2%;
+  float: left;
+}
+.idx1 img{
+  padding-top: 3%;
+}
+.idx1 p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 130%;
+  padding-top: 3%;
+}
+.idx{
+  text-align: center;
+  width: 99.2%;
+  border: 7px dotted DarkViolet;
+  margin: auto;
+  margin-top: 5%;
+  padding-bottom: 30px;
+  padding-top: 2%;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+}
+.idx h3{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 250%;
+  text-align: center;
+}
+.idx p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 130%;
+  text-align: left;
+  padding-top: 3%;
+}
+.idx img{
+  width: 700px;
+  height: 400px;
+  padding-top: 3%;
+}
+.idx ul{
+  padding-top: 2%;
+}
+.idx li{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: left;
+}
+.r_idx{
+  background-color: Linen;
+  width: 50%;
+  border: 5px solid LightCoral;
+  padding: 70px 40px;
+  padding-bottom: 5%;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.r_idx h2{
+  text-align: left;
+  font-size: 20px;
+  padding-top: 3%;
+}
+.r_idx p{
+  padding: 1%;
+}
+.r_idx ul{
+  padding: 2%;
+}
+.name h2{
+  text-align: center;
+  font-size: 230%;
+  padding-bottom: 3%;
+}
+.name p{
+  text-align: right;
+}
+.subtitle{
+  clear: right;
+}
+.video{
+  text-align: center;
+  width: 99.2%;
+  padding-bottom: 10%;
+  border: 6px solid Yellow;
+  float: left;
+  margin-bottom: 3%;
+}
+.video iframe{
+  width: 850px;
+  height: 500px;
+  padding-top: 3%;
+}
+.video h3{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 180%;
+  text-align: center;
+  padding-top: 1%;
+  clear: left;
+}
+.picture{
+  text-align: center;
+  width: 99.2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 10px;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  border: 6px solid Crimson;
+  float: left;
+  clear: left;
+}
+.picture h3{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 180%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+.picture img{
+  width: 500px;
+  height: 380px;
+  padding-top: 2%;
+}
+.school{
+  margin-top: 8%;
+  width: 99.2%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 10px;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  border: 6px solid RoyalBlue;
+  clear: left;
+
+}
+.school h3{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 180%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.school li{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 120%
+}
