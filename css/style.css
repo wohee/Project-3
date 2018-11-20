@@ -149,6 +149,17 @@ body{
   height: 500px;
   position: relative;
 }
+.google{
+  width: 99.2%;
+  border: 7px dotted DarkViolet;
+  margin: auto;
+  margin-top: 5%;
+  padding-bottom: 30px;
+  padding-top: 2%;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+}
 .r_idx{
   background-color: Linen;
   width: 50%;
